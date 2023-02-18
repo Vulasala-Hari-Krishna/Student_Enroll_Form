@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Student Enrollment form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header text-center">
+            <h2>Student Enrollment form using JPDB API</h2>
+        </div>
+        <form id="studentform" method="get">
+            <div class="form-group">
+                <label>Roll Number:</label>
+                <input type="text" id="rollno" class="form-control" placeholder="Example r170001" onchange='getStudent()'>
+            </div>
+            <div class="form-group">
+                <label>Full Name:</label>
+                <input type="text" id="studentname" class="form-control" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group">
+                <label>Class:</label>
+                <input type="text" id="Class" class="form-control" placeholder="Example A ">
+            </div>
+            <div class="form-group">
+                <label>Birth Date:</label>
+                <input type="date" id="birth_date" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Adress:</label>
+                <input type="text" id="adress" class="form-control" placeholder="Enter Your Adress">
+            </div>
+            <div class="form-group">
+                <label>Enrollment Date:</label>
+                <input type="date" id="enroll_date" class="form-control">
+            </div>
+            <div class="page-header text-center">
+                <button type="button" class="btn btn-lg btn-primary" id="save" onclick="saveData()" disabled>Save</button>
+                <button type="button" class="btn btn-lg btn-primary" id="update" onclick="updateData()" disabled>Change</button>
+                <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="resetForm()" disabled>Reset</button>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
