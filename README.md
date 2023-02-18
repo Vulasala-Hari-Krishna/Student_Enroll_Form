@@ -23,6 +23,9 @@ If the Roll Number is present in the database, existing data will be displayed i
 - It helps developers in faster coding, in-turn reduces development cost.
 - Nimble, Simple to use, In Memory, Real-time DBMS.
 
+## Additional Information :
+[JsonPowerDB API URL](http://api.login2explore.com:5577)  
+[JsonPowerDB Documentation](https://login2explore.com/jpdb/docs.html)
 ## Release History :
 - No releases yet.
 
