@@ -12,4 +12,17 @@ If the Roll Number is present in the database, existing data will be displayed i
 - After changing the data, by clicking the ***UPDATE button*** data will be updated in the Database.
 - If we click the ***RESET button*** empty form will be displayed.  
 
+## Benefits of using JsonPowerDB :  
+- ***Schema Free*** - easy to maintain.
+- ***ServerLess Support*** - Fast development - cuts time to market.
+- ***Multi mode*** DBMS - Document DB, Key-Value DB, RDBMS support.
+- Build around worlds fastest indexing engine ***PowerIndex***.
+- Inbuilt support for Querying multiple Databases.
+- ***Multiple Security*** layers.
+- It is low level (raw) form of data and is also human readable.
+- It helps developers in faster coding, in-turn reduces development cost.
+- Nimble, Simple to use, In Memory, Real-time DBMS.
+
+## Release History :
+- No releases yet.
 
