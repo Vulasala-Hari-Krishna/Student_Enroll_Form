@@ -10,7 +10,7 @@ After entering the Roll Number and
 If the Roll Number is present in the database, existing data will be displayed in the form. And ***UPDATE and RESET buttons*** are enabled and cursor will move to the next field in the form. Keeps the Roll Number field disabled and allow users to change other form fields.
 - We can change the data in the other fields. 
 - After changing the data, by clicking the ***UPDATE button*** data will be updated in the Database.
-- If we click the ***RESET button*** empty form will be displayed.  
+- If we click the ***RESET button***, empty form will be displayed.  
 
 ## Benefits of using JsonPowerDB :  
 - ***Schema Free*** - easy to maintain.
